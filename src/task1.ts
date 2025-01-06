@@ -10,17 +10,16 @@ let callback: (a: number) => number = (a) => { return 100 + a };
 let anything: any = 20; 
 anything = 'Text'; 
 anything = {};
+//usage 
+let arr: any[] = [1, 'text', {name: 'Max'}];
 
 // Task 1.3
-let some: unknown; 
-some = 'Text'; 
+let some: unknown;
+some = 'Text';
 
-let str: string; 
-
+let str: string;
 if (typeof some === 'string') {
-    str = some; 
-} else {
-    console.error('The variable "some" is not a string.');
+  str = some; 
 }
 
 // Task 1.4
