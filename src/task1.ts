@@ -59,11 +59,15 @@ function isWeekend(day: string): boolean {
     return day === 'saturday' || day === 'sunday';
 }
 
+//usage
+isWeekend('monday'); // false
+
 // Task 1.8
 type Gender = 'male' | 'female';
 
 let myGender: Gender;
 myGender = 'male'; // OK
+
 // myGender2 = 'other'; // Error
 
 // Task 1.9
