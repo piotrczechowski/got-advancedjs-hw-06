@@ -9,15 +9,14 @@ let callback = (a) => { return 100 + a; };
 let anything = 20;
 anything = 'Text';
 anything = {};
+//usage 
+let arr = [1, 'text', { name: 'Max' }];
 // Task 1.3
 let some;
 some = 'Text';
 let str;
 if (typeof some === 'string') {
     str = some;
-}
-else {
-    console.error('The variable "some" is not a string.');
 }
 // Task 1.4
 let person = ['Max', 21];
