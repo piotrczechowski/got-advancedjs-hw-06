@@ -46,6 +46,8 @@ function throwError(message) {
 function isWeekend(day) {
     return day === 'saturday' || day === 'sunday';
 }
+//usage
+isWeekend('monday'); // false
 let myGender;
 myGender = 'male'; // OK
 const page1 = {
